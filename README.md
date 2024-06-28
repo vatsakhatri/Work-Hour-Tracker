@@ -38,6 +38,7 @@ requests
 
 ### Alembic setup (Migrations)
 ```
+cd work_hour
 alembic init alembic
 ```
 - this will create a alembic folder and 📁 alembic.ini , below are the changes to be done   
@@ -65,6 +66,7 @@ alembic upgrade head
 
 ### Commands to run
 ```
+cd work_hour
 uvicorn main:app --relaod
 ```
 

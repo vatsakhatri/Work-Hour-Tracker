@@ -9,7 +9,7 @@ from models import User, timestampuser, typeoff
 bcrypt_context = CryptContext(schemes=['bcrypt'], deprecated='auto')
 import time
 
-SECRET_KEY = "608aecefd6fef2da3fc6ec4037e3107"
+SECRET_KEY = "your-secret-key"
 ALGORITHM = "HS256"
 
 class AuthService:
